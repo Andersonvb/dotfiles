@@ -1,0 +1,9 @@
+[user]
+	name = Anderson Valencia
+	email = andersonvalenciabermudez@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	pl = pull
