@@ -11,3 +11,9 @@ if [ -f ~/.tmux.conf ]; then
   rm ~/.tmux.conf
 fi
 cp ~/.dotfiles/.tmux.conf ~/
+
+# .vimrc
+if [ -f ~/.vimrc ]; then
+  rm ~/.vimrc
+fi
+cp ~/.dotfiles/.vimrc ~/
