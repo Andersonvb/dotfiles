@@ -15,6 +15,8 @@ filetype plugin indent on
 set path+=**
 set clipboard=unnamed
 set wildmenu
-set wildmode=longest:full,full
+set wildmode=list:longest,full
+set nowrap
+
 nnoremap <silent> <Esc> :nohlsearch<CR>
 
