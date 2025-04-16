@@ -17,3 +17,10 @@ if [ -f ~/.vimrc ]; then
   rm ~/.vimrc
 fi
 cp ~/.dotfiles/.vimrc ~/
+
+# init.lua - Neovim
+if [ -f ~/.config/nvim/init.lua ]; then
+  rm -rf ~/.config/nvim/
+fi
+mkdir ~/.config/nvim
+cp ~/.dotfiles/init.lua ~/.config/nvim/

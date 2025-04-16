@@ -2,7 +2,7 @@ syntax on
 set number
 set relativenumber
 set showmatch
-" colorscheme desert
+colorscheme desert
 set mouse=a
 set autoindent
 set smartindent
