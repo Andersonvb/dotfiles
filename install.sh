@@ -16,4 +16,10 @@ if [ -f ~/.tmux.conf ]; then
 fi
 cp ~/dotfiles/.tmux.conf ~/
 
+# Aliases
+echo "alias v='nvim'" >>../.zshrc
+echo "alias vi='nvim'" >>../.zshrc
+echo "alias vim='nvim'" >>../.zshrc
+echo "alias t='tmux'" >>../.zshrc
+
 echo "Dotfiles installation complete!"
