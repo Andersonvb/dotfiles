@@ -7,3 +7,4 @@
 	ci = commit
 	st = status
 	pl = pull
+  ca = "ammend --no-edit"

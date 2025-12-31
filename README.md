@@ -5,7 +5,7 @@ This is a collection of dotfiles that I use on my machines.
 ### Installation
 
 ```bash
-cd ~/.dotfiles
+cd ~/dotfiles
 ./install.sh
 ```
 
